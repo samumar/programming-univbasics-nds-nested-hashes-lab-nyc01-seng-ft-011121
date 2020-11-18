@@ -22,6 +22,8 @@ end
 
 def aoh_lookup(aoh, row, key)
   row = 0
+  key = :name
+  while row < aoh.count do
 end
 
 def aoh_update(aoh, row, key, new_value)
